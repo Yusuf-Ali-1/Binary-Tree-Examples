@@ -132,9 +132,17 @@ public class BinaryTree {
         theTree.addNode(75, "Sales Manager");
         theTree.addNode(85, "Salesman 1");
 
-        System.out.println("Search for 30 ");
+        System.out.println("Search for 30 "); //We want to find the key 30
 
-        System.out.println(theTree.findNode(30));
+        System.out.println(theTree.findNode(30)); //Method to find key of 30
+        
+        
+        //Different ways to traverse binary trees
+        //theTree.preOrderTraverseTree(theTree.root);
+        
+        //theTree.inOrderTraverseTree(theTree.root);
+        
+        //theTree.postOrderTraverseTree(theTree.root);
 
 
 
